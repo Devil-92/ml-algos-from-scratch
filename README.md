@@ -1,12 +1,9 @@
 # ML Algorithms from Scratch
 
-[![Tests](https://github.com/Devil-92/ml-algos-from-scratch/actions/workflows/tests.yml/badge.svg)](https://github.com/Devil-92/ml-algos-from-scratch/actions)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 
 A comprehensive repository of **machine learning algorithms implemented from scratch** using NumPy, demonstrating deep understanding of ML fundamentals through code.
 
-## 🎯 Features
+## Features
 
 - **15+ Core Algorithms** across supervised, unsupervised, and neural network categories
 - **Pure NumPy implementations** — no scikit-learn, no TensorFlow (just mathematical foundations)
@@ -16,7 +13,7 @@ A comprehensive repository of **machine learning algorithms implemented from scr
 - **Production-grade code** with clean documentation and type hints
 - **CI/CD pipeline** with automated testing
 
-## 📚 Algorithms Included
+## Algorithms Included
 
 ### Supervised Learning
 - **Linear Regression** — Ordinary Least Squares with gradient descent
@@ -40,7 +37,7 @@ A comprehensive repository of **machine learning algorithms implemented from scr
 - **Metrics** — Accuracy, Precision, Recall, F1-score, Confusion Matrix, ROC-AUC
 - **Preprocessing** — Normalization, standardization, train-test splitting
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Installation
 
@@ -80,13 +77,13 @@ predictions = model.predict(X_test)
 print(f"R² Score: {model.score(X_test, y_test):.4f}")
 ```
 
-## 📖 Documentation
+##  Documentation
 
 - **[THEORY.md](docs/THEORY.md)** — Mathematical foundations and derivations
 - **[ALGORITHMS.md](docs/ALGORITHMS.md)** — Complete algorithm reference with complexity analysis
 - **[Examples](examples/)** — Working code examples for each algorithm category
 
-## 🧪 Testing
+##  Testing
 
 ```bash
 # Run all tests
@@ -99,7 +96,7 @@ pytest tests/ --cov=src --cov-report=html
 pytest tests/test_linear_regression.py -v
 ```
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 ml-algos-from-scratch/
@@ -114,7 +111,7 @@ ml-algos-from-scratch/
 └── requirements.txt         # Dependencies
 ```
 
-## 💡 Learning Highlights
+## Learning Highlights
 
 This repository showcases:
 - **Linear Algebra** — Matrix operations, eigenvalues, SVD
@@ -123,7 +120,7 @@ This repository showcases:
 - **Algorithm Design** — Complexity analysis, optimization techniques
 - **Software Engineering** — Clean code, testing, documentation
 
-## 🔧 Performance Benchmarks
+## Performance Benchmarks
 
 Each algorithm includes performance comparisons:
 - Convergence speed
@@ -135,7 +132,7 @@ Run benchmarks with:
 python examples/performance_benchmark.py
 ```
 
-## 📝 Examples
+##  Examples
 
 ### Supervised Learning
 ```bash
@@ -152,33 +149,11 @@ python examples/unsupervised_learning_demo.py
 python examples/neural_networks_demo.py
 ```
 
-## 🤝 Contributing
+#
 
-Contributions are welcome! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+## About
 
-## 📄 License
+Created as a comprehensive portfolio showcasing deep understanding of machine learning algorithms and software engineering best practices.
 
-This project is licensed under the MIT License — see [LICENSE](LICENSE) file for details.
 
-## 👨‍💼 About
-
-Created as a comprehensive portfolio showcasing deep understanding of machine learning algorithms and software engineering best practices. Perfect for interviews, learning, and reference.
-
-## ❓ FAQ
-
-**Q: Why implement from scratch?**
-A: Understanding the math behind algorithms is crucial for:
-- Debugging and improving models
-- Making informed architecture choices
-- Interviews and technical discussions
-- Contributing to ML research
-
-**Q: How accurate are these implementations?**
-A: All algorithms are validated against standard test cases and benchmarked against production implementations.
-
-**Q: Can I use this in production?**
-A: While correct, this is educational code. For production, use optimized libraries like scikit-learn or PyTorch.
-
----
-
-⭐ **Star this repo** if you find it helpful!
+**Star this repo** if you find it helpful!
