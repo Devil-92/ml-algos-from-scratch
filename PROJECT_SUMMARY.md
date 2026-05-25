@@ -153,7 +153,7 @@ python examples/neural_networks_demo.py
 pytest tests/ -v --cov=src --cov-report=html
 ```
 
-## 📈 Performance
+## Performance
 
 ### Test Results
 - All 38 tests passing
